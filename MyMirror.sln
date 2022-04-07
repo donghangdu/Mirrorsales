@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-backoffice", "MyMirror-backoffice\MyMirror-backoffice.csproj", "{499956DF-D948-4EAC-A1C3-042578994944}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyMirror-frontoffice", "MyMirror-frontoffice\", "{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{5f35a986-48c9-4042-901c-6f146e1faed1}|MyMirror-classes.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57690"
+		Debug.AspNetCompiler.PhysicalPath = "MyMirror-frontoffice\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57690\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57690"
+		Release.AspNetCompiler.PhysicalPath = "MyMirror-frontoffice\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57690\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57690"
+		SlnRelativePath = "MyMirror-frontoffice\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-classes", "MyMirror-classes\MyMirror-classes.csproj", "{5F35A986-48C9-4042-901C-6F146E1FAED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMirror-testing", "MyMirror-testing\MyMirror-testing.csproj", "{B70E2D05-375E-4095-8AE7-CAB7BD065C81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499956DF-D948-4EAC-A1C3-042578994944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499956DF-D948-4EAC-A1C3-042578994944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499956DF-D948-4EAC-A1C3-042578994944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499956DF-D948-4EAC-A1C3-042578994944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{613BAC6A-DD1A-4C0D-AEED-8355B09EFDE9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F35A986-48C9-4042-901C-6F146E1FAED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70E2D05-375E-4095-8AE7-CAB7BD065C81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16394E90-8FA7-4FBC-88B4-FAE2C903475F}
+	EndGlobalSection
+EndGlobal
